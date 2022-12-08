@@ -1,13 +1,39 @@
+/* Use a sans-serif font for a modern look */
 body {
+  font-family: 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Use a light gray for the default text color */
+body,
+p {
+  color: #333;
+}
+
+/* Use a dark gray for headings */
+h1,
+h2,
+h3 {
+  color: #222;
+}
+
+/* Style buttons with a blue background and white text */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Style form inputs with a light gray border */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  font-size: 1rem;
 }
