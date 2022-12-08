@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import './GetSurfConditions.css';
 
@@ -7,7 +6,7 @@ const GetSurfConditions = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('http://localhost:8080/api/surf/r');
+      const response = await fetch('https://34.202.160.166/');
       const result = await response.json();
       setData(result);
     };
@@ -16,15 +15,15 @@ const GetSurfConditions = () => {
   }, []);
 
   return (
-    <div>
+    <div className="surf-conditions">
       {data ? (
         <div>
           <h1>{"Conditions"}</h1>
           <p>{"Surf Quality: " + data.quality}</p>
           <p>{"Wave Height: " + data.waveAsHumanHeight}</p>
-          <p>{"Wind Speed: " +data.windSpeed}</p>
-          <p>{"Wind Gust: " +data.windGust}</p>
-          <p>{"Direction: " +data.windDirection}</p>
+          <p>{"Wind Speed: " + data.windSpeed + " gusting " + data.windGust + " kts"}</p>
+          <p>{"Wind Direction: " +data.direction}</p>
+          <p>{data.windDirection + " Wind"}</p>
           <p>{"Tide: " + data.tideHeight}</p>
           <p>{"Tide Height: " + data.tideType}</p>
         </div>
