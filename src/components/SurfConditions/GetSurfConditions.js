@@ -6,7 +6,7 @@ const GetSurfConditions = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('https://34.202.160.166/');
+      const response = await fetch('http://44.202.50.119/api/surf/r');
       const result = await response.json();
       setData(result);
     };
