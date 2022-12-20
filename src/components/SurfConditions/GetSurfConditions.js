@@ -21,7 +21,7 @@ const GetSurfConditions = () => {
           <h1>{"Conditions"}</h1>
           <p>{"Surf Quality: " + data.quality}</p>
           <p>{"Wave Height: " + data.waveAsHumanHeight}</p>
-          <p>{"Wind Speed: " + data.windSpeed + " gusting " + data.windGust + " kts"}</p>
+          <p>{"Wind Speed: " + Math.round(data.windSpeed) + " gusting " + Math.round(data.windGust) + " kts"}</p>
           <p>{"Wind Direction: " +data.direction}</p>
           <p>{data.windDirection + " Wind"}</p>
           <p>{"Tide: " + data.tideHeight}</p>
