@@ -111,27 +111,18 @@ const GetSurfConditions = () => {
                            The sunset faded to twilight before anything further happened.  The crowd far away on the left, towards Woking, seemed to grow, and I heard now a faint murmur from it.  The little knot of people towards 
                            Chobham dispersed.  There was scarcely an intimation of movement from the pit.</p>
                      <figure className="figure">
-                               <img className="media" src="https://i.giphy.com/PW7MoTD2d9pJK.gif" alt=""/>
-                               <figcaption className="figcaption">Hermine hoping for courage.</figcaption>
+                               <img className="media" src="https://www.surfertoday.com/images/animatedgifs/surfgif1.gif" alt=""/>
+                               <figcaption className="figcaption">Surfer Wiping Out</figcaption>
                            </figure>
-
-               
-                           <p>It was this, as much as anything, that gave people courage, and I suppose the new arrivals from Woking also helped to restore confidence.  At any rate, as the dusk came on a slow, intermittent movement upon 
-                               the sand pits began, a movement that seemed to gather force as the stillness of the evening about the cylinder remained unbroken.  Vertical black figures in twos and threes would advance, stop, watch, and 
-                               advance again, spreading out as they did so in a thin irregular crescent that promised to enclose the pit in its attenuated horns.  I, too, on my side began to move towards the pit.</p>
-               
-                           <p>Then I saw some cabmen and others had walked boldly into the sand pits, and heard the clatter of hoofs and the gride of wheels.  I saw a lad trundling off the barrow of apples.  And then, within thirty yards 
-                               of the pit, advancing from the direction of Horsell, I noted a little black knot of men, the foremost of whom was waving a white flag.</p>
                
                            </div>
                        <div className="collumn"><div className="head"><span className="headline hl1">{articles[1].title}</span><p><span className="headline hl2">Let go your conscious self and act on instinct</span></p></div><p>{articles[1].body}</p>
                  <figure className="figure">
-                               <img className="media" src="https://i.giphy.com/4fDWVPMoSyhgc.gif" alt=""/>
+                               <img className="media" src="https://www.surfertoday.com/images/animatedgifs/surfgif9.gif" alt=""/>
                                <figcaption className="figcaption">This time, let go your conscious self and act on instinct.</figcaption>
                            </figure>
-                           <p>Leave that to me. Send a distress signal, and inform the Senate that all on board were killed. <span className="citation">Do under&shy;estimate the Force. I suggest you try it again, Luke.</span> This time, 
-                           let go your conscious self and act on instinct. In my experience, there is no such thing as luck. all clear, kid.  blow this thing and go home!</p>
-                           <p>You don believe in the Force, do you? Partially, but it also obeys your commands. The plans you refer to will soon be back in our hands. As you wish.</p></div>
+                           <p><span className="citation">Lay Off The Testosterone</span></p>
+                          </div>
                        <div className="collumn"><div className="head"><span className="headline hl3">{articles[2].title} </span><p><span className="headline hl4">Why Ketamine is a bad idea</span></p></div><p>{articles[2].body}</p></div>
                        <div className="collumn"><div className="head"><span className="headline hl1">{articles[3].title} </span><p><span className="headline hl4">by Ryan Pacheco</span></p></div><p>{articles[3].body}</p>
                          
