@@ -57,7 +57,7 @@ const GetSurfConditions = () => {
 
   return (
     <div className="surf-conditions">
-      {data ? (
+      {data && articles ? (
                <div>
                 <div className="container">
             
@@ -153,7 +153,9 @@ const GetSurfConditions = () => {
         //   <p>{"Tide Height: " + data.tideType}</p>
         // </div>
       ) : (
-        <p>Loading...</p>
+        <div className="loading-spinner">
+        <img src="/images/loading-spinner.gif" alt="Loading spinner" />
+      </div>
       )}
     </div>
   );
