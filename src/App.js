@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import GetSurfConditions from './components/SurfConditions/GetSurfConditions.js';
-import './App.css';
+// import GetSurfConditions from './components/SurfConditions/GetSurfConditions.js';
+// import './App.css';
+//import Home from './pages/home.js';
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header>
-          <h1 className="header">SANDS BEACH SURF</h1>
-        </header>
+    
         <GetSurfConditions/>
-      </div>
+    
     );
   }
 }
