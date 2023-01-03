@@ -110,7 +110,7 @@ const GetSurfConditions = () => {
                            The sunset faded to twilight before anything further happened.  The crowd far away on the left, towards Woking, seemed to grow, and I heard now a faint murmur from it.  The little knot of people towards 
                            Chobham dispersed.  There was scarcely an intimation of movement from the pit.</p>
                      <figure className="figure">
-                               <img className="media" src="http://i.giphy.com/PW7MoTD2d9pJK.gif" alt=""/>
+                               <img className="media" src="https://i.giphy.com/PW7MoTD2d9pJK.gif" alt=""/>
                                <figcaption className="figcaption">Hermine hoping for courage.</figcaption>
                            </figure>
                
@@ -124,7 +124,7 @@ const GetSurfConditions = () => {
                            </div>
                        <div className="collumn"><div className="head"><span className="headline hl1">{articles[1].title}</span><p><span className="headline hl2">Let go your conscious self and act on instinct</span></p></div><p>{articles[1].body}</p>
                  <figure className="figure">
-                               <img className="media" src="http://i.giphy.com/4fDWVPMoSyhgc.gif" alt=""/>
+                               <img className="media" src="https://i.giphy.com/4fDWVPMoSyhgc.gif" alt=""/>
                                <figcaption className="figcaption">This time, let go your conscious self and act on instinct.</figcaption>
                            </figure>
                            <p>Leave that to me. Send a distress signal, and inform the Senate that all on board were killed. <span className="citation">Do under&shy;estimate the Force. I suggest you try it again, Luke.</span> This time, 
