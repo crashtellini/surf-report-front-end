@@ -91,7 +91,7 @@ const GetSurfConditions = () => {
                        <div className="collumn">
                            <div className="head"><span className="headline hl3">Live Surf Conditions</span><p><span className="headline hl4">by Nick Fields</span></p>
                            </div>
-                              
+                              <div className="conditionscollumn">
                                  <p>{"Surf Quality: " + data.quality}</p>
                                  <p>{"Wave Height: " + data.waveAsHumanHeight}</p>
                                  <p>{"Wind Speed: " + Math.round(data.windSpeed) + " gusting " + Math.round(data.windGust) + " kts"}</p>
@@ -99,6 +99,7 @@ const GetSurfConditions = () => {
                                  <p>{data.windDirection + " Wind"}</p>
                                  <p>{"Tide: " + data.tideHeight}</p>
                                  <p>{"Tide Height: " + data.tideType}</p>
+                              </div>
                            </div>
                        <div className="collumn">
                            <div className="head">
@@ -108,8 +109,7 @@ const GetSurfConditions = () => {
                                </p>
                                </div>
                                <p> {articles[0].body}
-                           The sunset faded to twilight before anything further happened.  The crowd far away on the left, towards Woking, seemed to grow, and I heard now a faint murmur from it.  The little knot of people towards 
-                           Chobham dispersed.  There was scarcely an intimation of movement from the pit.</p>
+                               </p>
                      <figure className="figure">
                                <img className="media" src="https://www.surfertoday.com/images/animatedgifs/surfgif1.gif" alt=""/>
                                <figcaption className="figcaption">Surfer Wiping Out</figcaption>
