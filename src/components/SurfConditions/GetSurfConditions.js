@@ -79,7 +79,7 @@ const GetSurfConditions = () => {
 
                    <img className="bw" src="/images/sands.jpg" alt="sands" />
 
-                   <div className="subhead">August 29, 2022 by Nicholas Hopper</div>
+                   <div className="subhead">August 29, 2022 by Garrett Weinert</div>
 
 
               
@@ -105,7 +105,7 @@ const GetSurfConditions = () => {
                            <div className="head">
                                <span className="headline hl5">{articles[0].title}</span>
                                <p>
-                               <span className="headline hl6">He Really Does Suck</span>
+                               <span className="headline hl6">Hard Work Pays Off</span>
                                </p>
                                </div>
                                <p> {articles[0].body}
@@ -121,9 +121,9 @@ const GetSurfConditions = () => {
                                <img className="media" src="https://www.surfertoday.com/images/animatedgifs/surfgif9.gif" alt=""/>
                                <figcaption className="figcaption">This time, let go your conscious self and act on instinct.</figcaption>
                            </figure>
-                           <p><span className="citation">Lay Off The Testosterone</span></p>
+                           <p><span className="citation">Take It Easy Bud</span></p>
                           </div>
-                       <div className="collumn"><div className="head"><span className="headline hl3">{articles[2].title} </span><p><span className="headline hl4">Why Ketamine is a bad idea</span></p></div><p>{articles[2].body}</p></div>
+                       <div className="collumn"><div className="head"><span className="headline hl3">{articles[2].title} </span><p><span className="headline hl4">Does It Get Much Worse?</span></p></div><p>{articles[2].body}</p></div>
                        <div className="collumn"><div className="head"><span className="headline hl1">{articles[3].title} </span><p><span className="headline hl4">by Ryan Pacheco</span></p></div><p>{articles[3].body}</p>
                          
                         </div>
