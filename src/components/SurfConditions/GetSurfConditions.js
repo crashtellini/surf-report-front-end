@@ -99,6 +99,7 @@ const GetSurfConditions = () => {
                                  <p>{data.windDirection + " Wind"}</p>
                                  <p>{"Tide: " + data.tideHeight}</p>
                                  <p>{"Tide Height: " + data.tideType}</p>
+                                 <p>{"Harvest Buoy: " + data.buoyHeight + "ft, " + data.buoyPeriod + " s, " + data.buoyDirection + "°"}</p>
                               </div>
                            </div>
                        <div className="collumn">
