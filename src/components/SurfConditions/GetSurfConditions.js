@@ -99,13 +99,14 @@ const GetSurfConditions = () => {
                                  <p>{data.windDirection + " Wind"}</p>
                                  <p>{"Tide: " + data.tideHeight}</p>
                                  <p>{"Tide Height: " + data.tideType}</p>
+                                 <p>{"Harvest Buoy: " + data.buoyHeight + "ft, " + data.buoyPeriod + " s, " + data.buoyDirection + "°"}</p>
                               </div>
                            </div>
                        <div className="collumn">
                            <div className="head">
                                <span className="headline hl5">{articles[0].title}</span>
                                <p>
-                               <span className="headline hl6">Hard Work Pays Off</span>
+                               <span className="headline hl6">At Least You Got A Workout</span>
                                </p>
                                </div>
                                <p> {articles[0].body}
@@ -116,10 +117,10 @@ const GetSurfConditions = () => {
                            </figure>
                
                            </div>
-                       <div className="collumn"><div className="head"><span className="headline hl1">{articles[1].title}</span><p><span className="headline hl2">Let go your conscious self and act on instinct</span></p></div><p>{articles[1].body}</p>
+                       <div className="collumn"><div className="head"><span className="headline hl1">{articles[1].title}</span><p><span className="headline hl2">Prank gone too far</span></p></div><p>{articles[1].body}</p>
                  <figure className="figure">
                                <img className="media" src="https://www.surfertoday.com/images/animatedgifs/surfgif9.gif" alt=""/>
-                               <figcaption className="figcaption">This time, let go your conscious self and act on instinct.</figcaption>
+                               {/* <figcaption className="figcaption">This time, let go your conscious self and act on instinct.</figcaption> */}
                            </figure>
                            <p><span className="citation">Take It Easy Bud</span></p>
                           </div>
