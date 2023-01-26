@@ -79,10 +79,10 @@ const GetSurfConditions = () => {
                       <div className="head"><span className="headline hl3">Live Surf Conditions</span><p><span className="headline hl4">by Nick Fields</span></p>
                         </div>
                             <div className="conditionscollumn">
+                                  <h1>CONDITIONS:</h1>
                                   <p>{"Surf Quality: " + data.quality}</p>
                                   <p>{"Wave Height: " + data.waveAsHumanHeight}</p>
-                                  <p>{"Wind Speed: " + Math.round(data.windSpeed) + " gusting " + Math.round(data.windGust) + " kts"}</p>
-                                  <p>{"Wind Direction: " +cardinalDirection(data.direction)}</p>
+                                  <p>{"Wind Speed: " + Math.round(data.windSpeed) + " gusting " + Math.round(data.windGust) + " kts " + cardinalDirection(data.direction)}</p>
                                   <p>{data.windDirection + " Wind"}</p>
                                   <p>{"Tide: " + data.tideHeight}</p>
                                   <p>{"Tide Height: " + data.tideType}</p>
@@ -91,11 +91,12 @@ const GetSurfConditions = () => {
                           </div> 
                              <img className="bw" src="/images/sands.jpg" alt="sands" />
                           </div>
+                          
 
                           </div>
 
 
-                   <div className="subhead">August 29, 2022 by Garrett Weinert</div>
+                      <div className="subhead">August 29, 2022 by Garrett Weinert</div>
 
                   
 
@@ -104,6 +105,7 @@ const GetSurfConditions = () => {
               
                  
                </div>
+                      <div className="container">
                        <div className="content">
                         <div className="columns">
                           <div className="collumn">
@@ -135,6 +137,8 @@ const GetSurfConditions = () => {
                    </div>
                    </div>
                    </div>
+                   </div>
+                  
                    
 
       ) : (
