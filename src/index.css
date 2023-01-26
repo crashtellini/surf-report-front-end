@@ -12,12 +12,12 @@ body{
 
 .parent-container {
   display: flex;
+  text-align: left;
+  letter-spacing: 3px;
 }
 
 
-.condition-collumn {
-  width: 50%; /* set the width of the first column */
-}
+
 
 img {
   width: 50%; /* set the width of the image */
@@ -76,6 +76,7 @@ p{
   border-bottom: 2px solid #2f2f2f;
   border-top: 2px solid #2f2f2f;
   padding: 12px 0 12px 0;
+  text-align: center;
 
 }
 
@@ -96,8 +97,8 @@ p{
 .collumn{
   font-size: 14px;
   line-height: 20px;
-  width: 17.5%;
-  display: inline-block;
+  width: 22.9%;
+  display: inline-table;
   padding: 0 1% 0 1%;
   vertical-align: top;
   margin-bottom: 50px;
@@ -106,6 +107,8 @@ p{
 
 .conditionscollumn{
   font-size: 18px;
+  line-height: 35px;
+  font-style: italic; 
 }
 
 
