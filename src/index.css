@@ -6,6 +6,24 @@ body{
   background-color: #f9f7f1;
 }
 
+.parent-div {
+  display: flex;
+}
+
+.parent-container {
+  display: flex;
+}
+
+
+.condition-collumn {
+  width: 50%; /* set the width of the first column */
+}
+
+img {
+  width: 50%; /* set the width of the image */
+}
+
+
 .container {
   width: 1500px;  
   margin: 0 auto;
