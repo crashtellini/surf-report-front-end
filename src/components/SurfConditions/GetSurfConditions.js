@@ -31,9 +31,6 @@ function cardinalDirection(direction) {
   };
   
 
-
-
-
 const GetSurfConditions = () => {
   const [data, setData] = useState(null);
   const [articles, setArticles] = useState(null);
@@ -76,33 +73,40 @@ const GetSurfConditions = () => {
                    </div>
                
                    <div className="subhead">Santa Barbara, CA- {getCurrentDate()}</div>
+                   
+                   <div className="parent-container">
+   <div className="content">
+       <div className="head"><span className="headline hl3">Live Surf Conditions</span><p><span className="headline hl4">by Nick Fields</span></p>
+       </div>
+          <div className="conditionscollumn">
+             <p>{"Surf Quality: " + data.quality}</p>
+             <p>{"Wave Height: " + data.waveAsHumanHeight}</p>
+             <p>{"Wind Speed: " + Math.round(data.windSpeed) + " gusting " + Math.round(data.windGust) + " kts"}</p>
+             <p>{"Wind Direction: " +cardinalDirection(data.direction)}</p>
+             <p>{data.windDirection + " Wind"}</p>
+             <p>{"Tide: " + data.tideHeight}</p>
+             <p>{"Tide Height: " + data.tideType}</p>
+             <p>{"Harvest Buoy: " + data.buoyHeight + "ft, " + data.buoyPeriod + "s, " + data.buoyDirection + "°"}</p>
+          </div>
+       </div> 
+   <img className="bw" src="/images/sands.jpg" alt="sands" />
+</div>
 
-                   <img className="bw" src="/images/sands.jpg" alt="sands" />
+</div>
+
 
                    <div className="subhead">August 29, 2022 by Garrett Weinert</div>
+
+                  
 
 
               
               
                  
                </div>
-               <div className="content">
-                   <div className="collumns">
-                       <div className="collumn">
-                           <div className="head"><span className="headline hl3">Live Surf Conditions</span><p><span className="headline hl4">by Nick Fields</span></p>
-                           </div>
-                              <div className="conditionscollumn">
-                                 <p>{"Surf Quality: " + data.quality}</p>
-                                 <p>{"Wave Height: " + data.waveAsHumanHeight}</p>
-                                 <p>{"Wind Speed: " + Math.round(data.windSpeed) + " gusting " + Math.round(data.windGust) + " kts"}</p>
-                                 <p>{"Wind Direction: " +cardinalDirection(data.direction)}</p>
-                                 <p>{data.windDirection + " Wind"}</p>
-                                 <p>{"Tide: " + data.tideHeight}</p>
-                                 <p>{"Tide Height: " + data.tideType}</p>
-                                 <p>{"Harvest Buoy: " + data.buoyHeight + "ft, " + data.buoyPeriod + " s, " + data.buoyDirection + "°"}</p>
-                              </div>
-                           </div>
-                       <div className="collumn">
+                       <div className="content">
+                        <div className="columns">
+                          <div className="collumn">
                            <div className="head">
                                <span className="headline hl5">{articles[0].title}</span>
                                <p>
@@ -131,19 +135,8 @@ const GetSurfConditions = () => {
                    </div>
                    </div>
                    </div>
-                   </div>
+                   
 
-               
-        // <div>
-        //   <h1>{"Conditions"}</h1>
-        //   <p>{"Surf Quality: " + data.quality}</p>
-        //   <p>{"Wave Height: " + data.waveAsHumanHeight}</p>
-        //   <p>{"Wind Speed: " + Math.round(data.windSpeed) + " gusting " + Math.round(data.windGust) + " kts"}</p>
-        //   <p>{"Wind Direction: " +cardinalDirection(data.direction)}</p>
-        //   <p>{data.windDirection + " Wind"}</p>
-        //   <p>{"Tide: " + data.tideHeight}</p>
-        //   <p>{"Tide Height: " + data.tideType}</p>
-        // </div>
       ) : (
         <div className="loading-spinner">
         <img src="/images/loading-spinner.gif" alt="Loading spinner" />
